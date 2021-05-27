@@ -9,3 +9,7 @@ R//Hace referencia a los atributos y metodos que componen las caracteristicas de
 
 3.Que significa una funcion recursiva?
 R// Es una funcion que en su ejecucion se invoca a si misma.
+
+4.Que sucede en memoria si hacemos < var nuevoArray= arrayExistente >
+R// Se va a asignar a nuevo array la misma ubicacion de memoria que a array existente, por lo que cualquier modificacion sobre array nuevo va a afectar al ya existente. eso incluye el push(ball).
+
